@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A Node CLI interface for Husky - Git Hooks made easy, woof!",
   "bin": {
-    "husky-init": "./index.js"
+    "husky": "./index.js"
   },
   "scripts": {
     "start": "node ./index.js",
