@@ -1,0 +1,38 @@
+{
+  "name": "husky-cli",
+  "version": "0.1.0",
+  "description": "A Node CLI interface for Husky - Git Hooks made easy, woof!",
+  "bin": {
+    "husky-init": "./index.js"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesblackjr/husky-cli.git"
+  },
+  "keywords": [
+    "husky",
+    "node",
+    "cli",
+    "git",
+    "hooks",
+    "git",
+    "hooks",
+    "install",
+    "uninstall",
+    "installer",
+    "uninstaller"
+  ],
+  "author": "James A. Black Jr. <mrdesigner@jamesblackjr.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesblackjr/husky-cli/issues"
+  },
+  "homepage": "https://github.com/jamesblackjr/husky-cli#readme",
+  "dependencies": {
+    "husky": "git+https://github.com/jamesblackjr/husky.git"
+  }
+}
