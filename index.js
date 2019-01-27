@@ -10,7 +10,7 @@ const [, , action, huskyDir = path.resolve(__dirname, 'node_modules/husky')] = p
 
 try {
   // Run installer
-  if (action === 'install' || null) {
+  if (!action || action === 'install') {
     husky.install(huskyDir);
   } else if (action === 'uninstall') {
     husky.uninstall(huskyDir);

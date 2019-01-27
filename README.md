@@ -4,7 +4,7 @@ A Node CLI interface for [Husky](https://github.com/typicode/husky) - Git Hooks 
 
 ## Disclaimer
 
-**Warning**: This CLI tool is still a work in progress, use with caution!
+**Warning**: This CLI tool is still a work in progress, expect the unexpected!
 
 ## Installation
 
