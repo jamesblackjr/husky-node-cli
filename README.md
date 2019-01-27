@@ -1,4 +1,4 @@
-# Husky CLI
+# Husky Node CLI
 
 A Node CLI interface for [Husky](https://github.com/typicode/husky) - Git Hooks made easy, woof!
 
@@ -10,8 +10,20 @@ A Node CLI interface for [Husky](https://github.com/typicode/husky) - Git Hooks 
 
 ```bash
 npm install -g husky-node-cli
+```
 
-cd git-project
+## Install Git Hooks
 
+From git repo directory:
+
+```bash
 husky install
+```
+
+## Uninstall Git Hooks
+
+From git repo directory:
+
+```bash
+husky uninstall
 ```
