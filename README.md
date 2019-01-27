@@ -9,7 +9,7 @@ A Node CLI interface for [Husky](https://github.com/typicode/husky) - Git Hooks 
 ## Installation
 
 ```bash
-npm install -g husky-cli
+npm install -g husky-node-cli
 
 cd git-project
 
